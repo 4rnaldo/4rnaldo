@@ -107,7 +107,7 @@ description = "Allow RDP inbound traffic"
   }
 }
 // create two Ubuntu instances
-resource "aws_instance" "i-ubuntu-linux-prod" {
+resource "aws_instance" "ID-UBUNTU-prod" {
   ami                         = "ami-0d1cd67c26f5fca19"
   instance_type               = "t2.micro"
   key_name                    = "IDavinciKeyPair"
@@ -126,7 +126,7 @@ resource "aws_instance" "i-ubuntu-linux-prod" {
   }  
 }
  
-resource "aws_instance" "i-ubuntu-linux-test" {
+resource "aws_instance" "ID-UBUNTU-test" {
   ami                         = "ami-0d1cd67c26f5fca19"
   instance_type               = "t2.micro"
   key_name                    = "IDavinciKeyPair"
